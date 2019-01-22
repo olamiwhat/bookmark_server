@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 #
 # A *bookmark server* or URI shortener.
-
+import os
 import http.server
 import requests
 from urllib.parse import unquote, parse_qs
