@@ -44,7 +44,7 @@ def CheckURI(uri, timeout=5):
         # If the GET request raised an exception, it's not OK.
         return False
 
-class ThreadHTTPSerever(ThreadingMixIn, http.server.HTTPServer):
+class ThreadHTTPServer(ThreadingMixIn, http.server.HTTPServer):
     "This is an HTTPServer that supports thread-based concurrency."
 
 
